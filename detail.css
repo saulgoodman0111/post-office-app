@@ -1,0 +1,96 @@
+*{font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    background-color: black;
+    color: #B8BCCC80;
+    font-size:20px;
+} 
+h2{color:#B8BCCC;
+font-size:30px;
+text-align: center;}
+p{ 
+    background-color: black;
+}
+#ipaddress{
+   display: flex;
+   gap:15px;
+   justify-content: space-between;
+}
+
+#locdetail{
+    display: flex;
+    flex-direction: column;
+    margin:12px;
+    flex-wrap: wrap;
+}
+span{
+    color:white;
+}
+.moreinfo{
+    width:95%;
+    margin:0px 22px;
+}
+#postoffices{
+    width:95%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:20px;
+    background-color: black;
+}
+
+#details,#details p{
+  background-color:#575A85;
+  color: #B8BCCC;
+  border-radius: 5px;
+}
+#details{ width:47%;
+    min-width:270px;
+padding:0px 10px;}
+#details span{ background-color: #575A85;}
+
+.map h2{ background-color: #575A85;
+}
+.map{
+    width:100%;
+    min-width:300px;
+    min-height:300px;
+    background-color: #575A85;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top:10px;
+}
+iframe{ width:90%;
+ height:600px;}
+
+.postofficesdetail{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .search{
+    display: flex;
+    border: 3px solid #575A85;
+    width:97%;
+    padding-left: 6px;
+    text-align: center;
+    height:40px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+#filter{
+    width:96%;
+    outline: none;    
+    height:40px;
+    border: none;
+ }
+
+ @media screen and (max-width: 430px) {
+    #ipaddress{
+        flex-direction: column;
+    }
+    #details{width:97%;
+
+    }
+  }

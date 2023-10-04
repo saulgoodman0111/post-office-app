@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office Application Made By SSP</title>
+    <link rel="shortcut icon" href="assets\icons8-walter-white-240.png" type="image/x-icon">
+    <link rel="stylesheet" href="detail.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@300;400&display=swap');
+      </style>
+      <script src="detail.js" defer></script>
+</head>
+<body>
+    <header id="locdetail"><p></p> </header>
+    <div class="map">
+        <h2>Your Current Location</h2>
+        <iframe src="https://maps.google.com/maps?q=28.6519, 77.2315&z=15&output=embed"  frameborder="0" style="border:0"></iframe>
+    </div>
+    <h2>More Information About You </h2>
+    <div class="moreinfo"><p>Time Zone:<span id="timezone"></span></p> 
+        <p>Date And Time:<span id="dateandtime"></span></p>
+        <p>Pincode: <span id="pincode"></span></p>
+        <p>Message: Number of pincode(s) found:<span id="msg"></span></p> 
+    </div>
+    <div class="postofficesdetail">
+    <h2>Post Office near me</h2>
+    <div class="search"><img src="assets/search-icon.png"><input type="search" id="filter"></div>
+    <div id="postoffices">
+        
+    </div>
+</div>
+    <!-- <script src="detail.js"></script> -->
+</body>
+</html>
